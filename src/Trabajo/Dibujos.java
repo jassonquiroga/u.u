@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tarea;
+package Trabajo;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -25,7 +25,7 @@ import javax.swing.JFrame;
  *
  * @author AlphaTeam
  */
-public class Dibujo extends JApplet {
+public class Dibujos extends JApplet {
     final static BasicStroke stroke = new BasicStroke(2.0f);
     
     public static void Dibujo1(Graphics g) {
@@ -76,7 +76,7 @@ public static void Dibujo2(Graphics g) {
  
         Graphics2D g2 = (Graphics2D) g;
         g.setColor(Color.DARK_GRAY);g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);             
-       // Dibujo 01
+       // Dibujos 01
         g2.drawOval(0, 0, 600, 600);
         g2.drawLine(45,150, 555, 150);
         g2.drawLine(45, 450, 555, 450);
@@ -123,7 +123,7 @@ public static void Dibujo3(Graphics g) {
         x = 100;y = 50;
         Graphics2D g2 = (Graphics2D) g;
         g.setColor(Color.DARK_GRAY);g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);             
-       // Dibujo 03
+       // Dibujos 03
         
         g2.drawOval(0, 0, 600, 600);
         g2.drawOval(151, 151, 298, 298);
